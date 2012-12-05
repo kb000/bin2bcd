@@ -28,8 +28,8 @@ module bin2bcd16
    assign bcd3 = bcd[3];
    assign bcd4 = bcd[4];
 
-   localparam s_idle = 1'b00;
-   localparam s_busy = 1'b01;
+   localparam s_idle = 2'b00;
+   localparam s_busy = 2'b01;
    localparam s_fin  = 2'b10;
    reg [1:0]    state;
    
