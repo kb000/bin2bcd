@@ -1,0 +1,6 @@
+.simvision/
+INCA_libs/
+ncverilog.key
+ncverilog.log
+syn/
+waves.shm/
